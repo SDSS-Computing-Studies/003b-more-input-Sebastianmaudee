@@ -25,7 +25,7 @@ x = float(x)
 y = float(y)
 z = float(z)
 i = y/100*x*z/365
-i = round(i,2)
+i = round(i,1)
 i = str(i)
 print("You earned $"+ i +" interest.")
 
