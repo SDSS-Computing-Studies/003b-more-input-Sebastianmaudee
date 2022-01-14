@@ -13,3 +13,17 @@ Enter the fift price: 7.99
 Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
+
+import math
+
+x = input("enter item price")
+b = input("enter item price")
+a = input("enter item price")
+y = input("enter item price")
+x = float(x)
+y = float(y)
+a = float(a)
+b = float(b)
+total = x + y + a + b
+tax = total * 0.12 
+xtotal = total + tax
