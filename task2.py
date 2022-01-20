@@ -15,8 +15,8 @@ How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
 import math 
-x = input("How many Canadian Dollars do you have?")
+x = input("How many Canadian Dollars do you have? ")
 x = float(x)
 x =  x / 1.25
 x = str(x)
-print("That is worth $" + x+ " USD")
+print("That is worth $" + x + " USD")
