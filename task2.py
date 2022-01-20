@@ -18,5 +18,5 @@ import math
 x = input("How many Canadian Dollars do you have? ")
 x = float(x)
 x =  x / 1.25
-x = str(x)
-print("That is worth $" + x + " USD")
+round(x,2)
+print("That is worth $" + "%.2f"%x + " USD")
