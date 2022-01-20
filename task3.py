@@ -27,3 +27,4 @@ b = float(b)
 total = x + y + a + b
 tax = total * 0.12 
 xtotal = total + tax
+print(xtotal)
