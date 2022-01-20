@@ -27,4 +27,7 @@ b = float(b)
 total = x + y + a + b
 tax = total * 0.12 
 xtotal = total + tax
-print(xtotal)
+tax = str(tax)
+total = str(total)
+xtotal = str(xtotal)
+print("Your subtotal is $" + total + " and your taxes total $" + tax + " for a total of $" + xtotal)
